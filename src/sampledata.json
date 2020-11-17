@@ -1,0 +1,34 @@
+{
+  "partners": [
+    {
+      "id": 66,
+      "username": "Hello World",
+      "shouldChangePassword": true,
+      "hasAcceptedContract": false,
+      "profile": {
+        "firstName": "Hello World",
+        "lastName": "Hello World",
+        "businessName": "Hello World",
+        "phone": "Hello World",
+        "businessWebsite": "Hello World",
+        "skypeId": "Hello World",
+        "socialMedia": "Hello World"
+      }
+    },
+    {
+      "id": 41,
+      "username": "Hello World",
+      "shouldChangePassword": false,
+      "hasAcceptedContract": true,
+      "profile": {
+        "firstName": "Hello World",
+        "lastName": "Hello World",
+        "businessName": "Hello World",
+        "phone": "Hello World",
+        "businessWebsite": "Hello World",
+        "skypeId": "Hello World",
+        "socialMedia": "Hello World"
+      }
+    }
+  ]
+}
