@@ -4,27 +4,28 @@
         <p> </p>
         <form>
             <label for="first name">First name: </label><br>
-            <input type="text" required v-model="firstName">
-            <p>Message is: {{ firstName }}</p><br>
+            <input type="text" required v-model="firstName"><br>
+            <!-- <p>Message is: {{ firstName }}</p><br> -->
 
             <label for="last name">Last name: </label><br>
-            <input type="text" required v-model="lastName">
-            <p>Message is: {{ lastName }}</p><br>
+            <input type="text" required v-model="lastName"><br>
+            <!-- <p>Message is: {{ lastName }}</p><br> -->
 
             <label for="business name">Business Name: </label><br>
-            <input type="text" required v-model="businessName">
-            <p>Message is: {{ businessName }}</p><br>
+            <input type="text" required v-model="businessName"><br>
+            <!-- <p>Message is: {{ businessName }}</p><br> -->
 
             <label for="phone">Phone number: </label><br>
-            <input type="text" required v-model="phone">
-            <p>Message is: {{ phone }}</p><br>
+            <input type="text" required v-model="phone"><br>
+            <!-- <p>Message is: {{ phone }}</p><br> -->
 
-            <!-- <label for="contractBool">Has accepted contract? </label><br>
-            <input type="radio" v-model="hasAcceptedContract">
-            <label for="yes">Yes</label><br>
-            <input type="radio" v-model="hasAcceptedContract">
-            <label for="no">No</label><br> -->
-
+            <label for="contractBool">Has accepted contract? </label><br>
+            <input type="radio" v-model="hasAcceptedContract" v-bind:value="true" name="contract">
+            <label for="yes">Yes</label>
+            <!-- <p>Answer is: {{ hasAcceptedContract }}</p><br> -->
+            <input type="radio" v-model="hasAcceptedContract" v-bind:value="false" name="contract">
+            <label for="no">No</label><br>
+            <!-- <p>Answer is: {{ hasAcceptedContract }}</p><br> -->
             <button v-on:click="searchPartners">Search</button>
             <!--<div>{{result}}</div>-->
 
@@ -44,8 +45,8 @@ export default{
       firstName: '',
       lastName: '',
       businessName: '',
-      phone: ''
-      // hasAcceptedContract: ''
+      phone: '',
+      hasAcceptedContract: ''
       // result: []
     }
   },
