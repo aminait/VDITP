@@ -22,7 +22,7 @@ type PartnerProfile {
     skypeId: String
     socialMedia: String
 }
-
+```
 ### Clone repository then run the following commands:
 ```
 npm install
