@@ -1,4 +1,4 @@
-# Overview & Goal
+# Goal & Overview
 Kidzie's Admin portal project is missing a page to manage partners.  
 End goal is to develop this page using a tech stack similar to Kidzie's Admin portal (Vue, BootstrapVue, Axios, Vuex, Vue Router). 
  
